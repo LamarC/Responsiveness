@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../Images/El-tunco.jpg);
+    background-size: cover;
+}
+
+#bar {
+    width: 100%;
+}
+
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    background-color:rgba(10, 39, 58, 0.671);
+    color: paleturquoise; 
+    float: left;
+    width: 300px;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    float: left;
+    margin-right: 30px;
+}
+
+nav ul li {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+    clear: both;
+    list-style-type: none;
+    display: inline-block; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hotpink;
+    padding: 30px;
+}
+
+nav a:hover {
+    background-color: 52, 73, 94;
+    color: paleturquoise;
+}
+
+#container {
+    width: 65%;
+    height: 350px;
+    margin: 0 auto;
+    padding: 50px;
+    font-family: 'Merienda', cursive;
+    background-color: azure;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+
+.photo {
+    float: left;
+    margin: 10px;
+}
+
+h2 {
+    color: hotpink;
+    font-size: 28px;
+}
+
+p { 
+    background-color: azure;
+    color: slategray;
+    font-size: 18px;
+}
+
+#boxes {
+    margin-left: 160px;
+    padding: 10;
+    display: block;
+}
+
+.row {
+    display: flex;
+}
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.card-img-top:hover {
+    border: whitesmoke 2px solid;
+}
+
+.card-text {
+    color: #F9E79F;
+    background-color: black;
+    margin-top: 0;
+    width: 33.3%;
+    text-align: center;
+}
+
+.column1 {
+    float: left;
+    width: 33.3%;  
+}
+
+.column2 {
+    clear: both;
+    float: left;
+    width: 33.3%;
+    margin-right: 35px;
+}
+
+.column3 {
+    clear: both;
+    float: left;
+    width: 33.3%;
+}
+
+hr {
+    clear: both;
+}
+
+footer {
+    clear: both;
+    font-size: 30px;
+    font-family: 'Oxygen', sans-serif;
+    background-color:rgba(10, 39, 58, 0.671);
+    color: rgb(119, 201, 201);
+    position: sticky;
+    margin-top: 35px;
+    width: 100%;
+    height: 75px;
+    padding: 20px;
+    text-align: center
+}
