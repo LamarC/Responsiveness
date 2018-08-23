@@ -66,6 +66,14 @@ nav a:hover {
     background-color: azure;
 }
 
+#left {
+    width:480px;
+}
+
+#right {
+    widows: 480px;
+}
+
 img {
     width: 250px;
     height: 250px;
@@ -159,4 +167,43 @@ footer {
     height: 75px;
     padding: 20px;
     text-align: center
+}
+
+/* media queries */
+
+@media screen and (max-width:959px) {
+    nav {
+        width: 100%;
+    }
+    .navbar {
+        width: 100%;
+    }
+    #container {
+        width: 100%;
+    }    
+    #left {
+        width: 50%;
+    }    
+    #right {
+        widows: 50%
+    }
+    footer {
+        width: 100%;
+    }
+   
+}
+
+@media screen and (max-width:640px) {
+    #left {
+        width: 100%;
+    }    
+    #right {
+        widows: 100%
+    }
+}
+
+@media screen and (max-width:320px) {
+    #container {
+        width: 320px;
+    }
 }
