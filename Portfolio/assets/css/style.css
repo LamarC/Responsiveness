@@ -5,6 +5,8 @@ body {
     background-size: cover;
 }
 
+/* Nav bar section */
+
 #bar {
     width: 100%;
 }
@@ -53,10 +55,12 @@ nav a:hover {
     color: paleturquoise;
 }
 
+/* About section */
+
 #container {
-    width: 65%;
-    height: 350px;
+    width: 960px;
     margin: 0 auto;
+    height: 350px;
     padding: 50px;
     font-family: 'Merienda', cursive;
     background-color: azure;
@@ -67,7 +71,6 @@ img {
     height: 250px;
     border-radius: 8px;
 }
-
 
 .photo {
     float: left;
@@ -84,6 +87,15 @@ p {
     color: slategray;
     font-size: 18px;
 }
+
+/* Contact section */
+
+fieldset {
+    width: 75%;
+}
+
+
+/* Portfolio section */
 
 #boxes {
     margin-left: 160px;
